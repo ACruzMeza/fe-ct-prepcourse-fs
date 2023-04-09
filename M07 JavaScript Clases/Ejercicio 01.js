@@ -18,13 +18,12 @@ function crearUsuario() {
          this.password = password;
 
          this.saludar = function ()  {
-            
-          
+            return "Hola, mi nombre es " + this.nombre;
          }
+         }
+         return Usuario;
       }
-      return Usuario;
-      return 'Hola, mi nombre es' + this.nombre;
-   }
+      
    
 function agregarMetodoPrototype(Usuario) {
    // Agrega un método al prototipo de "Usuario".
